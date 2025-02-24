@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import "../HeaderSection/header.css"
 import SocialLinks from "../Sociallinks/socialLinks.jsx"
-import "./header.css"
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
