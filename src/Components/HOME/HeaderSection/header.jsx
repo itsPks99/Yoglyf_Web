@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import SocialLinks from "../Sociallinks/SocialLinks"
+import SocialLinks from "../Sociallinks/socialLinks.jsx"
 import "./header.css"
 
 const Header = () => {
