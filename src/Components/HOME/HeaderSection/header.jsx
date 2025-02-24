@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { FaChevronDown } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import "../HeaderSection/header.css"
 import SocialLinks from "../Sociallinks/socialLinks.jsx"
@@ -54,7 +55,7 @@ const Header = () => {
                 <>
                   <button className="menu-link dropdown-trigger" onClick={() => toggleDropdown(index)}>
                     {item.title}
-                    <span className="arrow-down">▼</span>
+                    <span className="arrow-down"> <FaChevronDown/></span>
                   </button>
                   <div className={`dropdown ${activeDropdown === index ? "active" : ""}`}>
                     {item.dropdown.map((subItem, subIndex) => (

@@ -7,52 +7,52 @@ const InvestorPrivileges = () => {
         {
             title: "Lifetime ROI",
             description: "Yoglyf ensures your investment delivers consistent, long-term returns through property appreciation and a steady rental income stream. With expertly managed properties in high-demand locations, you enjoy a reliable and growing ROI that secures your financial future.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/06roi.png"
         },
         {
             title: "Luxury Ownership",
             description: "Enhance your investment portfolio and lifestyle with ownership in premium luxury resorts in the most sought-after destinations. These iconic properties embody sophistication, prestige, and exclusivity, making your investment a true symbol of luxury living.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/07lux.png"
         },
         {
             title: "Exclusive Privileges",
             description: "As an investor, you gain access to exclusive benefits, including complimentary annual stays, discounts on dining, spa services, and priority access to premium resort amenities. These privileges make your investment not only financially rewarding but also personally enriching.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/08.png"
         },
         {
             title: "High-Value Appreciation",
             description: "Invest in carefully selected, high-growth destinations where property values steadily appreciate. Yoglyf strategically aligns investments with booming tourism markets, ensuring substantial capital growth over time.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/09.png"
         },
         {
             title: "Sustainable Investments",
             description: "Support eco-friendly developments designed with sustainability at their core. Yoglyf integrates green practices and sustainable designs into its resorts, attracting environmentally conscious travelers and investors who prioritize responsible investments.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/09.png"
         },
         {
             title: "Trusted Partnerships",
             description: "Partner with globally recognized hospitality brands that enhance your property’s value and appeal. These trusted collaborations ensure top-tier service, greater market visibility, and an exceptional experience for both guests and investors.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/06roi.png"
         },
         {
             title: "Free Holiday Stays",
             description: "Enjoy the perfect mix of leisure and investment with complimentary annual stays at Yoglyf resorts. This exclusive benefit allows you to personally experience the luxury and excellence of your investment.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/07lux.png"
         },
         {
             title: "Steady Income Stream",
             description: "Maximize financial returns with reliable rental income fueled by the high demand for luxury resorts. With professional property management and consistently high occupancy rates, you benefit from a stable and predictable revenue stream.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/08.png"
         },
         {
             title: "Professional Management",
             description: "Yoglyf handles all aspects of property management, from maintenance and guest services to daily operations, ensuring a seamless ownership experience. With a dedicated team maintaining your investment, your property retains its long-term value while offering peace of mind.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/09.png"
         },
         {
             title: "Luxury Ownership",
             description: "Enhance your investment portfolio and lifestyle with ownership in premium luxury resorts in the most sought-after destinations. These iconic properties embody sophistication, prestige, and exclusivity, making your investment a true symbol of luxury living.",
-            image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EPoTa70VgrI1B5XjWVgQr2E2IvRodX.png"
+            image: "/assets/images/06roi.png"
         }
     ];
 
