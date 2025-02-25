@@ -7,8 +7,11 @@
    
 } 
 
-.section {
-  padding: 9rem 2rem;
+@media screen and (max-width: 1024px) {
+  .section {
+    padding: 0rem 2rem;
+  }
+  
 }
 
 .split-background {
@@ -23,7 +26,6 @@
 
 .aboutImage-container {
   flex: 1;
-  /* background-color: blue; */
 }
 
 .aboutImage-container img {
@@ -111,10 +113,17 @@ strong {
   .split-background {
     flex-direction: column;
   }
+  .section {
+    padding: 0rem 2rem;
+  }
 
   .content, .aboutImage-container {
     width: 100%;
     padding-right: 0;
+  }
+
+  .aboutImage-container img {
+    width: 100%;
   }
 
   .aboutImage-container {

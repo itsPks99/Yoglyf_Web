@@ -8,7 +8,7 @@
   } 
   
   .section {
-    padding: 9rem 2rem;
+    padding: 7rem 2rem;
   }
   
   .split-background {
@@ -115,6 +115,14 @@
     .content, .investmentOpportunitiesimage-container {
       width: 100%;
       padding-right: 0;
+    }
+    .section {
+      padding: 0rem 2rem;
+    }
+
+
+    .investmentOpportunitiesimage-container img {
+      width: 100%;
     }
   
     .investmentOpportunitiesimage-container {

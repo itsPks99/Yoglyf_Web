@@ -33,11 +33,7 @@ const ContactUs = () => {
             opportunities, and how we can collaborate to build
             healthier, thriving communities.</p>
         </div>
-       
       </section>
-
-
-
       {/* Section 2: Contact Information */}
       <section className="contact-info-section">
         <div className="contact-info-box">

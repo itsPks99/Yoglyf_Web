@@ -1,3 +1,4 @@
+import { FaShare } from "react-icons/fa"
 import "./homeConnectWithUs.css"
 
 const HomeConnectWithUs = () => {
@@ -48,7 +49,7 @@ const HomeConnectWithUs = () => {
             <form onSubmit={handleNewsletter}>
               <div className="newsletter-input">
                 <input type="email" placeholder="YOUR EMAIL" required />
-                <button type="submit">SEND</button>
+                <button type="submit"><FaShare />   SEND</button>
               </div>
             </form>
           </div>

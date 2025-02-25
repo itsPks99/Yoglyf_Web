@@ -1,24 +1,25 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaLocationArrow, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import "./Footer.css";
-import { FaLocationDot, FaMapLocation } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
         <nav className="nav-links">
-          <a href="/about">about</a>
-          <a href="/contact">Contact Us</a>
-          <a href="/investor">Investor Privileges</a>
-          <a href="/news">News & Events</a>
+          <a href="/">HOME</a>
+          <a href="/contact">CONTACT US</a>
+          <a href="/investment-opportunities">INVESTMENT OPPORTUNITIES</a>
+          <a href="/investor-privileges">INVESTOR PRIVILEGES</a>
+          <a href="/blogs&media">BLOGS & MEDIA</a>
         </nav>
         <div className="footerSocial-icons">
           <a className="footerSocial-icons" href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
           <a className="footerSocial-icons" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           <a className="footerSocial-icons" href="https://youtube.com" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
           <a className="footerSocial-icons" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
-          <a className="footerSocial-icons" href="https://web.whatsapp.com/916205033076" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+          <a className="footerSocial-icons" href="https://web.whatsapp.com" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
         </div>
       </div>
 

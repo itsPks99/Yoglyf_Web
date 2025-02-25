@@ -18,23 +18,24 @@ const About = () => {
       </section>
 
       <section id="our-vision" className="section split-background">
-        <div className="aboutImage-container">
-          <img src="/assets/images/04.jpeg.jpg" alt="Our Vision" />
-        </div>
         <div className="content">
           <h2>WHAT WE DO</h2>
           <p>At <strong>Yoglyf</strong>, we design, develop, and invest in world-class wellness retreats in prime destinations. Our expertise covers every stage of retreat development, from vision to completion, ensuring exceptional quality and innovation. By integrating sustainable practices with exclusive investment opportunities, we create transformative spaces that promote well-being while delivering lasting value and growth.</p>
         </div>
+        <div className="aboutImage-container">
+          <img src="/assets/images/04.jpeg.jpg" alt="Our Vision" />
+        </div>
       </section>
 
       <section id="our-mission" className="section split-background">
+      <div className="aboutImage-container">
+          <img src="/assets/images/04.jpeg.jpg" alt="Our Mission" />
+        </div>
         <div className="content">
           <h2>OUR VALUES</h2>
           <p>At <strong>Yoglyf</strong>, our values define our purpose and guide every endeavor. We uphold integrity, transparency, and excellence, fostering trust with clients and partners. With a deep commitment to customer satisfaction, we create holistic wellness retreats that inspire rejuvenation and well-being. By integrating sustainability and innovation, we ensure value-driven experiences that enhance lives and leave a lasting impact.</p>
         </div>
-        <div className="aboutImage-container">
-          <img src="/assets/images/04.jpeg.jpg" alt="Our Mission" />
-        </div>
+        
       </section>
 
       {/* <section id="what-sets-us-apart" className="section split-background">
