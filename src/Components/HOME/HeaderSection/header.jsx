@@ -92,7 +92,7 @@ const Header = () => {
               <>
                 <button className="mobile-menu-link" onClick={() => toggleDropdown(index)}>
                   {item.title}
-                  <span className="arrow-down">▼</span>
+                  <span className="arrow-down"><FaChevronDown/></span>
                 </button>
                 <div className={`mobile-dropdown ${activeDropdown === index ? "active" : ""}`}>
                   {item.dropdown.map((subItem, subIndex) => (

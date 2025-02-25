@@ -1,18 +1,26 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const handleClick =(newValue) => { 
+   navigate(newValue);
+   window.scrollTo(0, 0);
+
+  }
+
   return (
     <footer className="footer">
       <div className="footer-top">
         <nav className="nav-links">
-          <a href="/">HOME</a>
-          <a href="/contact">CONTACT US</a>
-          <a href="/investment-opportunities">INVESTMENT OPPORTUNITIES</a>
-          <a href="/investor-privileges">INVESTOR PRIVILEGES</a>
-          <a href="/blogs&media">BLOGS & MEDIA</a>
+          <a onClick={handleClick("/")} href="/">HOME</a>
+          <a  onClick={handleClick("/contact")} href="/contact">CONTACT US</a>
+          <a onClick={handleClick("/investment-opportunities")} href="/investment-opportunities">INVESTMENT OPPORTUNITIES</a>
+          <a onClick={handleClick("/investor-privileges")} href="/investor-privileges" >INVESTOR PRIVILEGES</a>
+          <a onClick={handleClick("/blogs&media")} href="/blogs&media">BLOGS & MEDIA</a>
         </nav>
         <div className="footerSocial-icons">
           <a className="footerSocial-icons" href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
@@ -59,9 +67,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="legal-links">
-          <a href="/terms">Terms & Conditions</a>
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/about">About Us</a>
+          <a onClick={handleClick("/terms")} href="/terms">Terms & Conditions</a>
+          <a onClick={handleClick("/privacy")} href="/privacy">Privacy Policy</a>
+          <a onClick={handleClick("/about")} href="/about">About Us</a>
         </div>
       </div>
     </footer>
