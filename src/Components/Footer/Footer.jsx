@@ -16,11 +16,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <nav className="nav-links">
-          <a onClick={handleClick("/")} href="/">HOME</a>
-          <a  onClick={handleClick("/contact")} href="/contact">CONTACT US</a>
-          <a onClick={handleClick("/investment-opportunities")} href="/investment-opportunities">INVESTMENT OPPORTUNITIES</a>
-          <a onClick={handleClick("/investor-privileges")} href="/investor-privileges" >INVESTOR PRIVILEGES</a>
-          <a onClick={handleClick("/blogs&media")} href="/blogs&media">BLOGS & MEDIA</a>
+          <a onClick={ () => handleClick("/")}>HOME</a>
+          <a  onClick={() => handleClick("/contact")} >CONTACT US</a>
+          <a onClick={ () => handleClick("/investment-opportunities")} >INVESTMENT OPPORTUNITIES</a>
+          <a onClick={ () => handleClick("/investor-privileges")}  >INVESTOR PRIVILEGES</a>
+          <a onClick={ () => handleClick("/blogs&media")} >BLOGS & MEDIA</a>
         </nav>
         <div className="footerSocial-icons">
           <a className="footerSocial-icons" href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
@@ -67,9 +67,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="legal-links">
-          <a onClick={handleClick("/terms")} href="/terms">Terms & Conditions</a>
-          <a onClick={handleClick("/privacy")} href="/privacy">Privacy Policy</a>
-          <a onClick={handleClick("/about")} href="/about">About Us</a>
+          <a onClick={ () => handleClick("/terms")}>Terms & Conditions</a>
+          <a onClick={ () => handleClick("/privacy")}>Privacy Policy</a>
+          <a onClick={ () => handleClick("/about")} >About Us</a>
         </div>
       </div>
     </footer>
